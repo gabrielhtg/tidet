@@ -23,7 +23,9 @@ Ini adalah program yang dibuat dari bahasa pemrograman LISP untuk bahan pembelaj
    .
    .
    dst
+   *tambahkan saja sebanyak yang kalian inginkan.
    ```
+   
    - nama-fungsi-1 = nama fungsi yang kalian inginkan
    - nama-fungsi-2 = nama fungsi yang kalian inginkan 2
    - dd1 = tanggal-1
