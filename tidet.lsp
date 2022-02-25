@@ -60,17 +60,17 @@
     )
 )
 
-(defun bulan30(d)
-    (cond
-        (4) (6) (9) (11)
-    )
-)
+; (defun bulan30(d)
+;     (cond
+;         (4) (6) (9) (11)
+;     )
+; )
 
-(defun bulan31(d)
-    (cond
-        (1) (3) (5) (7) (8) (10) (12)
-    )
-)
+; (defun bulan31(d)
+;     (cond
+;         (1) (3) (5) (7) (8) (10) (12)
+;     )
+; )
 ; --------------------------------------------------------------------------------------------------------------------
 ; DEFENISI DAN SPESIFIKASI OPERATOR
 
@@ -306,18 +306,18 @@
 )
 ; --------------------------------------------------------------------------------------------------------------------
 
-; (setq jan1 (makedate 5 1 2003))
-; (setq jan2 (makedate 31 1 2003))
-; (setq a (makedate 21 4 2006))
-; (setq b (makedate 15 2 2016))
-; (setq c (makedate 28 2 2016))
-; (setq d (makedate 28 2 2015))
-; (setq e (makedate 31 12 2015))
-; (setq f (makedate 31 1 2016))
-; (setq g (makedate 30 11 2016))
-; (setq h (makedate 1 3 2000))
-; (setq i (makedate 1 3 2001))
-; (setq j (makedate 1 1 2003))
+(setq jan1 (makedate 5 1 2003))
+(setq jan2 (makedate 31 1 2003))
+(setq a (makedate 21 4 2006))
+(setq b (makedate 15 2 2016))
+(setq c (makedate 28 2 2016))
+(setq d (makedate 28 2 2015))
+(setq e (makedate 31 12 2015))
+(setq f (makedate 31 1 2016))
+(setq g (makedate 30 11 2016))
+(setq h (makedate 1 3 2000))
+(setq i (makedate 1 3 2001))
+(setq j (makedate 1 1 2003))
 ; (setq a (makedate 1 1 2000))
 ; (setq b (makedate 1 2 2000))
 ; (setq c (makedate 1 3 2000))
