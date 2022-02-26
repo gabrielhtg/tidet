@@ -11,6 +11,10 @@ Ini adalah program yang dibuat dari bahasa pemrograman LISP untuk bahan pembelaj
 8. Menentukan apakah tanggal-1 sama dengan tanggal-2. Dengan *tanggal-1* adalah tanggal yang didefinisikan pertama kali oleh pengguna, kemudian *tanggal-2* adalah tanggal yang didefinisikan oleh pengguna untuk kedua kalinya.
 9. Menentukan apakah tanggal-1 sebelum tanggal-2. Dengan *tanggal-1* adalah tanggal yang didefinisikan pertama kali oleh pengguna, kemudian *tanggal-2* adalah tanggal yang didefinisikan oleh pengguna untuk kedua kalinya.
 
+Ada dua versi dari Tipe Date ini. 
+- v1 adalah Tipe-Date manual, dimana kita memberikan input secara manual. Contohnya `(makedate 9 5 2003)`.
+- v2 adalah Tipe-Date manual juga, tetapi kita hanya perlu memasukkan tanggal, bulan dan tahun sesuai dengan permintaan dari program ini.
+
 ## <b>How to Use?</b>
 
 1. Buka CLISP.
@@ -76,3 +80,4 @@ Bachelor of Informatics study program. <br>
 <button><a href="https://www.instagram.com/gabrielhtg77/">My Instagram</a></button>
 <br>
 <button><a href="https://www.del.ac.id/">Institut Teknologi Del</a></button>
+
