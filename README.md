@@ -13,7 +13,9 @@ Ini adalah program yang dibuat dari bahasa pemrograman LISP untuk bahan pembelaj
 
 Ada dua versi dari Tipe Date ini. 
 - v1 adalah Tipe-Date manual, dimana kita memberikan input secara manual. Contohnya `(makedate 9 5 2003)`.
+  ![demo-v1](demo-v1.gif)
 - v2 adalah Tipe-Date manual juga, tetapi kita hanya perlu memasukkan tanggal, bulan dan tahun sesuai dengan permintaan dari program ini.
+  ![demo-v2](demo-v2.gif)
 
 ## <b>How to Use?</b>
 
