@@ -1,12 +1,10 @@
-; --------------------------------------------------------------------------------------------------------------------
+; ------------------------------------------------------------------------------------------------------------------------
 ; NAMA    : GABRIEL CESAR HUTAGALUNG
 ; NIM     : 11S21010
 ; PRODI   : S1 INFORMATIKA
-; --------------------------------------------------------------------------------------------------------------------
 ; DEFENISI DAN SPESIFIKASI KONSTRUKTOR
-
 ; Nama Fungsi                                                                                        makedate(dd mm yy)
-
+; 
 ; makedate : integer --> integer
 ; {makedate(dd mm yy) adalah fungsi yang menghasilkan input tanggal, bulan dan tahun yang kita input}
 ; --------------------------------------------------------------------------------------------------------------------
@@ -18,24 +16,24 @@
 
 ; --------------------------------------------------------------------------------------------------------------------
 ; DEFENISI DAN SPESIFIKASI SELEKTOR
-
+;
 ; Nama Fungsi                                                                                         day(d)
-
+;
 ; day : integer --> integer
 ; {day(d) akan menentukan tanggal pada list sebelumnya}
-
+;
 ; Nama Fungsi                                                                                         month(d)
-
+;
 ; month : integer --> integer
 ; {month(d) akan menentukan bulan pada list sebelumnya}
-
+;
 ; Nama Fungsi                                                                                         year(d)
-
+;
 ; year : integer --> integer
 ; {year(d) akan menentukan tahun pada list sebelumnya}
-
+;
 ; Nama Fungsi                                                                                         kabisat(d)
-
+;
 ; year : integer --> string
 ; {kabisat(d) akan menentukan apakah tahun yang dimasukkan adalah tahun kabisat atau tidak}
 ; --------------------------------------------------------------------------------------------------------------------
@@ -62,39 +60,39 @@
 
 ; --------------------------------------------------------------------------------------------------------------------
 ; DEFENISI DAN SPESIFIKASI OPERATOR
-
+;
 ; Nama Fungsi                                                                                           nextday(d)
-
+;
 ; nextday : integer --> integer
 ; {nextday(d) menentukan tanggal berikutnya}
-
+;
 ; Nama Fungsi                                                                                           jlhd29(d)
-
+;
 ; jlhd29 : integer --> integer
 ; {jlhd29(d) berfungsi untuk menentukan jumlah tanggal berikutnya pada bulan 2 kabisat}
-
+;
 ; Nama Fungsi                                                                                           jlhd28(d)
-
+;
 ; jlhd28 : integer --> integer
 ; {jlhd28(d) berfungsi untuk menentukan jumlah tanggal berikutnya pada bulan 2 non kabisat}
-
+;
 ; Nama Fungsi                                                                                           jlhd30(d)
-
+;
 ; jlhd30 : integer --> integer
 ; {jlhd30(d) berfungsi untuk menentukan jumlah tanggal berikutnya pada bulan yang memiliki jumlah tanggal 30}
-
+;
 ; Nama Fungsi                                                                                           jlhd31(d)
-
+;
 ; jlhd31 : integer --> integer
 ; {jlhd31(d) berfungsi untuk menentukan jumlah tanggal berikutnya pada bulan yang memiliki jumlah tanggal 31}
-
+;
 ; Nama Fungsi                                                                                            md29(d)
-
+;
 ; md29 : integer --> integer
 ; {md29(d) berfungsi untuk mendefenisikan tgl 1 bulan 3 tahun yy}
-
+;
 ; Nama Fungsi                                                                                           yesterday(d)
-
+;
 ; yesterday : integer --> integer
 ; {yesterday(d) menentukan tanggal sebelumnya}
 ; --------------------------------------------------------------------------------------------------------------------
@@ -231,14 +229,14 @@
 
 ; --------------------------------------------------------------------------------------------------------------------
 ; DEFENISI DAN SPESIFIKASI PREDIKAT
-
+;
 ; Nama Fungsi                                                                                             iseqd(d1 d2)
-
+;
 ; iseqd : integer --> boolean
 ; {iseqd(d1 d2) membandingkan apakah kedua date sama}
-
+;
 ; Nama Fungsi                                                                                             isbefore(d1 d2)
-
+;
 ; isbefore : integer --> boolean
 ; {isbefore(d1 d2) mengembalikan nilai true jika d1 sebelum d2}
 ; --------------------------------------------------------------------------------------------------------------------
